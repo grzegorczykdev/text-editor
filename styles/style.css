@@ -175,9 +175,22 @@ button {
 
 @media only screen and (max-width: 600px) {
     .editor, .notes {
-        width: 20rem;
+        width: 18rem;
+    }
+    .editor {
+        top: 10%;
+    }
+    .editor__content {
+        height: 180px;
+        font-size: 0.8rem;
     }
     .info {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
+        top: 1%;
+    }
+    .notes {
+        height: 150px;
+        top: 60%;
+        overflow: hidden;
     }
 }
